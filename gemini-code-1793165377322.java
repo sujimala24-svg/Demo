@@ -7,6 +7,7 @@ public class RabbitMQConfig {
     public static final String ROUTING_KEY = "order_created";
     public static final String ROUTING_KEY2 = "order_created";
     public static final String ROUTING_KEY3 = "order_created";
+    public static final String ROUTING_KEY4 = "order_created";
 
     @Bean
     public DirectExchange directExchange() {
